@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(220, 218, 218);
+}
+
+nav{
+    width: 100vw;
+    height: 67px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+    
+}
+
+
+.logo_searchbar{
+    width: 70vw;
+    height: 43px;
+    padding: 12px 12px 12px 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 160px;
+    height: 40px;
+    background-image: url(imgs/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.icon_searchbar{
+    width: 50vw;
+    height: 40px;
+    display: flex;
+    
+}
+.icon_searchbar button{
+    width: 44px;
+    height: 40px;
+    color: #0F1111;
+    background-color: #e1e7f4;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.icon_searchbar input{
+    width: 60vw;
+    height: 40px;
+    border: 0;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #e1e7f4;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.login_cart_other{
+    width: 264px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px 12px 12px;
+}
+.login{
+    width: 111px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 20px;
+    
+}
+.login a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    padding: 8px 8px 8px 8px;
+    
+}
+.acc_size{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+
+.login :hover{
+    background-color: blue;
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.cart{
+    width: 32px;
+    height: 24px;
+    color: #0F1111;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.store{
+    width: 20px;
+    height: 24px;
+    color: #0F1111;
+    font-size: 0.7rem;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+
+
+/* ----section1---- */
+
+.section1{
+    width: 98.5%;
+    height: 135px;
+    background-color: white;
+    margin-top: 75px;
+    margin-left:10px ;
+    margin-right:10px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1 a{
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding: 16px 16px 16px 16px;
+}
+
+.personal_carousel{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* section2 */
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec2_heading{
+    width: 82vw;
+    height: 64px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.sec2_heading h4{
+
+    padding-left: 10px;
+
+
+}
+.sec2_item {
+    width: 82vw;
+    height: 280px;
+    background-color: white;
+    margin-left: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-around;
+    /* Add margin between the .sec2_hero and other elements */
+    gap: 2px;  /* This will add a 2px gap between flex items */
+   overflow: hidden;
+}
+
+.sec2_img{
+    width: 216px;
+    height: 268px;
+    color: white;
+    border: 1px solid black;
+}
+
+.sec2_img a{
+    width: 200px;
+    height: 252px;
+    padding: 6px 6px 6px 6px;
+
+}
+
+.sec2_img a img{
+    width: 186px;
+    height: 186px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.sec2_img a img:hover{
+    transform: scale(1.03);
+}
+
+.sec2_hero {
+    width: 190px;
+    height: 50%;  /* This makes the height of .sec2_hero equal to .sec2_item */
+    color: white;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 2px; 
+    position: relative;
+    bottom: 45px;
+}
+.sec2_hero img {
+    width: 100%; /* Ensures the image inside .sec2_hero is responsive */
+    height: auto;
+}
+
+/* section3 */
+.sec3_heading{
+    width: 99vw;
+    height: 64px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.sec3_heading h4{
+
+    padding-left: 10px;
+
+
+}
+.sec3_item{
+    width: 99vw;
+    height: 280px;
+    background-color: white;
+    margin-left: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.sec3_img{
+    width: 216px;
+    height: 268px;
+    color: white;
+    border: 1px solid black;
+}
+
+.sec3_img a{
+    width: 200px;
+    height: 252px;
+    padding: 6px 6px 6px 6px;
+
+}
+
+.sec3_img a img{
+    width: 186px;
+    height: 186px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.sec3_img a img:hover{
+    transform: scale(1.03);
+}
+
+
+
+@media (width <= 770px) {
+    .icon_searchbar{
+        display: none;
+    }
+    .section1{
+        overflow: scroll;
+    }
+    .sec2_heading{
+        width: 99vw;
+    }
+    .sec2_item{
+        overflow: scroll;
+        width: 99vw;
+    }
+    .sec2_hero{
+        display: none;
+    }
+    .sec3_item{
+        overflow: scroll;
+    }
+  }
+  
