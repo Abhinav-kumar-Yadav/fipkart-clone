@@ -26,7 +26,7 @@ First, clone the repository to your local machine using Git:
 
 bash
 Copy code
-git clone https://github.com/your-username/online-shopping-site-clone.git
+git clone [https://github.com/your-username/online-shopping-site-clone.git](https://github.com/Abhinav-kumar-Yadav/fipkart-clone.git)
 2. Navigate to the Project Folder
 bash
 Copy code
